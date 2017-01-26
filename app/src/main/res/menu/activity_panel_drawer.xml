@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Incidencias">
+        <menu>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Reportar" />
+        </menu>
+    </item>
+
+    <item android:title="Reportes">
+        <menu>
+            <item
+                android:id="@+id/chart_state"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Estado de las incidencias" />
+            <item
+                android:id="@+id/chart_projects"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Proyectos en fuego" />
+
+            <item
+                android:id="@+id/chart_supports"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Soporte destacado" />
+        </menu>
+    </item>
+
+</menu>
